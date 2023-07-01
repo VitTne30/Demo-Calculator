@@ -43,7 +43,7 @@
                     <input type="button" value="0" onclick="display.value += '0'">
                     <input type="button" value="." onclick="display.value += '.'">
                     <input type="button" value="="
-                        onclick="if(display.value == undefined){display.value = '0'} else{display.value = eval(display.value)}"
+                        onclick="if(display.value == ''){display.value = '0'} else{display.value = eval(display.value)}"
                         class="equal">
                 </div>
             </form>
